@@ -36,10 +36,10 @@ with open(library) as fp:
                 song_info[songCompList[-1]] = artistList[0]
             except:
                 pass
-    try:
-        song_info.pop("Lemonade Film")
-    except:
-        pass
+    # try:
+    #     song_info.pop("Lemonade Film")
+    # except:
+    #     pass
 
 fileName = "song_to_artist.json" 
 with open(fileName, "w") as write_file:

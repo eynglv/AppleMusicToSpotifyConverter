@@ -15,7 +15,6 @@ Step 4: search for song
 Step 5: add song to spotify library ("liked songs")
 '''
 
-#step 1-2 on another page
 import json 
 import requests
 import ast
@@ -109,9 +108,8 @@ class saveSongs:
             response_json = response.json()
             return response_json
         except:
-            print (request_data)
             print (response.text)
-            print (response.status_code)
+
 
         
 
