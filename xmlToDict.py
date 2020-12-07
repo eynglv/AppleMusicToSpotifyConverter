@@ -36,16 +36,11 @@ with open(library) as fp:
                 song_info[songCompList[-1]] = artistList[0]
             except:
                 pass
-    # try:
-    #     song_info.pop("Lemonade Film")
-    # except:
-    #     pass
 
 fileName = "song_to_artist.json" 
 with open(fileName, "w") as write_file:
     json.dump(song_info, write_file)
-                
-#is it necessary to have a Chinese/foreign language parser? ace
+               
 
     
 
