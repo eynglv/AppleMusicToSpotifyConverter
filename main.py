@@ -111,11 +111,6 @@ class saveSongs:
             print (response.text)
 
 
-        
-
-#some songs are saving the wrong versions, use dedication to my ex
-            #loveeee song
-
 
          
 save_Songs = saveSongs()
